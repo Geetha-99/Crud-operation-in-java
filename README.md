@@ -40,7 +40,7 @@ Create a database named rv in your MySQL server.
 
 Execute the following SQL query to create the student table:
 
-sql
+ ```sql
 
 CREATE TABLE student (
     student_id INT AUTO_INCREMENT PRIMARY KEY,
@@ -48,9 +48,11 @@ CREATE TABLE student (
     marks VARCHAR(255),
     grade VARCHAR(255)
 );
-Configure the database connection parameters in the connect() method of the Student class:
 
-java
+##Configure the database connection parameters in the connect() method of the Student class:
+
+
+ ```java
 
 con = DriverManager.getConnection("jdbc:mysql://localhost/rv", "root", "");
 Update the URL, username, and password as needed.
