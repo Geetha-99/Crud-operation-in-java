@@ -32,10 +32,14 @@ This is a simple Java Swing application for managing student information in a My
 1. Open the project in your preferred Java IDE.
 ## Usage
 1.Compile and run the Student class.
+
 2.The application window will appear, allowing you to perform various student management operations.
+
 ## Database Configuration
 1.Make sure you have a MySQL database server installed and running.
+
 2.Create a database named rv in your MySQL server.
+
 3.Execute the following SQL query to create the student table:
 
   sql
