@@ -42,21 +42,21 @@ This is a simple Java Swing application for managing student information in a My
 
 3.Execute the following SQL query to create the student table:
 
-  sql
+
 
 CREATE TABLE student (
     student_id INT AUTO_INCREMENT PRIMARY KEY,
     student_name VARCHAR(255),
     marks VARCHAR(255),
     grade VARCHAR(255)
-); 
+); ```
 
 4.Configure the database connection parameters in the connect() method of the Student class:
 
 
- java
+java
 
-con = DriverManager.getConnection("jdbc:mysql://localhost/rv", "root", "");
+con = DriverManager.getConnection("jdbc:mysql://localhost/rv", "root", "");```
 Update the URL, username, and password as needed.
 
 ## Contributing
